@@ -13,12 +13,12 @@ As it is not an real python library `setup.py` is missing. If you want to try my
     $ pip install -r REQUIREMENTS
 
 # Usage
-# Testing
+## Testing
 You can generate graphs with provided module:
 
     $ python graphs.py --help
 
-# Customizing
+## Customizing
 
 As I mentioned above this is (intentionally) not really extensible piece of code. This is also not very DRY written piece of code. If you want refactorize/customize anything you should copy desired sections straight into your project and modify them.
 
