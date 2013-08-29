@@ -10,12 +10,17 @@ My pyrrd backend is based on `pyrrd.backends.external` but I'm going to provide 
 # Installation
 As it is not an real python library `setup.py` is missing. If you want to try my generators you should clone this repo and install dependencies (probably in virtualenv):
 
-$ pip install -r REQUIREMENTS
+    $ pip install -r REQUIREMENTS
 
 # Usage
+# Testing
 You can generate graphs with provided module:
 
-$ python graphs.py --help
+    $ python graphs.py --help
+
+# Customizing
+
+As I mentioned above this is (intentionally) not really extensible piece of code. This is also not very DRY written piece of code. If you want refactorize/customize anything you should copy desired sections straight into your project and modify them.
 
 # Examples
 
