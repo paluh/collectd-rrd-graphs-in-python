@@ -21,24 +21,24 @@ Lets assume that my rrd bases are in `./rrd/host1` directory:
 
     $ python graphs.py cpu --rrd-dir=./rrd/host1/cpu-0 --locale='pl_PL' --end='2013-03-28' -o cpu.png
 
-![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/cpu.png)
+![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/cpu.png?raw=true)
 
 
     $ python graphs.py load --rrd-dir=./rrd/host1/load --locale='pl_PL' --end='2013-03-28' -o load.png
 
-![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/load.png)
+![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/load.png?raw=true)
 
 
     $ python graphs.py interface --rrd-dir=./rrd/host1/inteface-eth0 --locale='pl_PL' --end='2013-03-28' -o interface.png
 
-![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/interface.png)
+![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/interface.png?raw=true)
 
 
     $ python graphs.py memory --rrd-dir=./rrd/host1/memory --locale='pl_PL' --end='2013-03-28' -o memory.png
 
-![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/memory.png)
+![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/memory.png?raw=true)
 
 
     $ python graphs.py disk --rrd-dir=./rrd/host1/disk-xvda2 --locale='pl_PL' --end='2013-03-28' --logarithmic -o disk.png && gqview disk.png
 
-![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/disk.png)
+![CPU graph](https://github.com/paluh/collectd-rrd-graphs-in-python/blob/master/examples/disk.png?raw=true)
