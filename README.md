@@ -19,7 +19,7 @@ $ python graphs.py --help
 
 # Examples
 
-Lets assume that my rrd bases are in `./rrd/host1` directory:
+Let's assume that my rrd bases are in `./rrd/host1` directory:
 
     $ python graphs.py cpu --rrd-dir=./rrd/host1/cpu-0 --locale='pl_PL' --end='2013-03-28' -o cpu.png
 
