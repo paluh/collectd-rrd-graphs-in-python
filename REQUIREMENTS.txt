@@ -1,0 +1,3 @@
+pyrrd
+pytz==2013b
+-e git+git://github.com/paluh/rrd-cdef#egg=rrd-cdef-2013.8.1
