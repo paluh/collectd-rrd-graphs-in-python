@@ -20,7 +20,7 @@ You can generate graphs with provided module:
 
 ## Customizing
 
-As I mentioned above this is (intentionally) not really extensible piece of code. This is also not very DRY written piece of code. If you want refactorize/customize anything you should copy desired sections straight into your project and modify them.
+As I mentioned above this is (intentionally) not really extensible piece of code. This is also (intentionally) not very DRY written piece of code. If you want refactorize/customize anything you should copy desired sections straight into your project and modify them.
 
 # Examples
 
